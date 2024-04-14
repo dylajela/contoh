@@ -1,0 +1,130 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	background-image: url('../img/milkbg.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+	color: #fff;
+}
+.description h1 {
+	font-size: 50px; 
+}
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.overlay {
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 25%;
+	min-height: 40%;
+	min-width: 40%;
+	background: rgba(0,0,0,0.6);
+	z-index: 0; 
+	border-radius: 10px;
+}
+
+.cookies {
+	min-width: 100%;
+	text-align: center;
+}
+.cookies .card-title {
+	margin-bottom: 0;
+}
+.cookies span {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 2px 6px;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+}
+.card-text {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    white-space: normal;
+}
+
+.cookies .col-lg-3 {
+    max-width: 25%;
+	}
+	
+.cookies .col-md-6 {
+    max-width: 60%;
+	}
+
+.abt {
+	background: #C0C0C0;
+	min-width: 100%;
+}
+
+.abt h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.abt img {
+	display: block;
+    margin: 0 auto;
+}
+.abt .col-8 {
+    justify-content: center; 
+    align-items: center; 
+}
+.abt .col-8 > h2 {
+	text-align: center;
+}
+.abt .col-8 > div {
+    text-align: left; 
+	font-size: 20px; 
+}
+
+.page-footer {
+	text-align: center;
+	background-color: #488AC7;
+	color: white;
+	padding: 60px 0 30px;
+}
+
+
+@media (max-width: 991.98px) {
+    .cookies {
+		padding: 0 15px;
+	}
+	.cookies .col-md-3 {
+        max-width: 100%; 
+    }
+	.abt .col-8 {
+        width: 70%;
+    }
+}
+@media (max-width: 500.98px){
+	.cookies {
+		max-width:70%;
+	}
+}
+
+
+	
+
+
+
